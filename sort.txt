@@ -1,0 +1,21 @@
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+even_numbers = []
+odd_numbers = []
+
+for number in numbers:
+    if number % 2 == 0:
+        even_numbers.append(number)
+    else:
+        odd_numbers.append(number)
+
+print( even_numbers)
+print( odd_numbers)
+print("___________________________")
+
+
+my_str = "s k t b a w h m"
+words = [word.lower() for word in my_str.split()]
+words.sort()
+for word in words:
+   print(word)
